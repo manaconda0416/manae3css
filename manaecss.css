@@ -1,0 +1,25 @@
+@charset "utf8";
+
+p{color: aquamarine;}
+
+.my-box {
+    width: 300px; /* 幅 */
+    height: 250px; /* 高さ */
+    background-color: #d0eb94; /* 背景色 */
+    border: 7px solid #2980b9; /* ボーダー */
+    border-radius: 15px; /* 角丸 */
+    padding: 13px; /* 内側の余白 */
+    margin: 20px; /* 外側の余白 */
+    color: hsl(241, 93%, 59%); /* テキストの色 */
+    text-align: center; /* テキストの中央揃え */
+    display: flex; /* フレキシブルボックスを使用して垂直中央揃えを設定 */
+  justify-content: center; /* ボックス内で水平中央揃え */
+  align-items: center; /* ボックス内で垂直中央揃え */
+          
+  }
+
+  .my-box {
+    font-size: 30px; /* フォントサイズを指定 */
+          
+  }
+  
